@@ -19,11 +19,12 @@ phases:
       - sudo npm install -g @angular/cli --unsafe-perm=true --allow-root
   build:
     commands:
-      - ls
+      - ls -a
       - echo building Angular
+      - ng update @angular/cli --migrate-only
       - cd ClientApp      
-      - ls
-      - ng update @angular/cli
+      - ls -a
+      - ng update @angular/cli --migrate-only
       - ng build --prod
   post_build:
     commands:
