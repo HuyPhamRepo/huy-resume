@@ -11,7 +11,12 @@ phases:
       - sudo apt-get install -y build-essential
       - echo Installing Angular
       - npm install -g @angular/cli
+      - echo Check Angular version
       - ng -v
+      - echo Re-install Angular CLI
+      - sudo npm uninstall -g @angular/cli
+      - sudo npm cache verify
+      - sudo npm install -g @angular/cli --unsafe-perm=true --allow-root
   build:
     commands:
       - echo building Angular
