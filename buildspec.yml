@@ -19,6 +19,7 @@ phases:
       - sudo npm install -g @angular/cli --unsafe-perm=true --allow-root
   build:
     commands:
+      - ls
       - echo building Angular
       - cd ClientApp      
       - ls
