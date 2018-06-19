@@ -21,7 +21,6 @@ phases:
     commands:
       - ls -a
       - echo building Angular
-      - ng update @angular/cli --migrate-only
       - cd ClientApp      
       - ls -a
       - ng update @angular/cli --migrate-only
