@@ -20,7 +20,9 @@ phases:
   build:
     commands:
       - echo building Angular
-      - cd ClientApp
+      - cd ClientApp      
+      - ls
+      - ng update @angular/cli
       - ng build --prod
   post_build:
     commands:
