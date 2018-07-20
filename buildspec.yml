@@ -18,5 +18,6 @@ phases:
       - ng build --prod
   post_build:
     commands:
+      - ls -a
       - echo copying files to root
       - mv ClientApp/dist/* ../..
