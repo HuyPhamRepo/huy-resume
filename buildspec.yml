@@ -16,7 +16,13 @@ phases:
       - ls -a
       - echo building Angular
       - ng build --prod
+      - dotnet restore
+      - dotnet publish -c Release -o wwwroot
   post_build:
     commands:
       - ls -a
+  artifacts:
+    files:
+      - wwwroot/*
+  discard-paths: yes
 
