@@ -10,7 +10,6 @@ phases:
       - sudo apt-get install -y nodejs
       - sudo apt-get install -y build-essential
       - npm install -g @angular/cli
-      - ng -v
   build:
     commands:
       - ls -a
