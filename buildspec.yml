@@ -19,6 +19,7 @@ phases:
   post_build:
     commands:
       - ls -a
+      - cp appspec.yml wwwroot
 artifacts:
   files:
     - wwwroot/*
