@@ -20,6 +20,8 @@ phases:
   post_build:
     commands:
       - rm -f bin/Release/netcoreapp2.0/publish/web.config
+      - rm -f bin/Release/netcoreapp2.0/publish/src/tslint.json
+      - rm -f bin/Release/netcoreapp2.0/publish/src/web.config
       - find bin/Release/netcoreapp2.0/publish/ -type f -print0 | xargs -0 mv -t wwwroot
       - ls -a wwwroot
       - cp appspec.yml wwwroot
