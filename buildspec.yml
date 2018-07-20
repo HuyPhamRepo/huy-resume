@@ -21,7 +21,8 @@ phases:
   post_build:
     commands:
       - ls -a
-  artifacts:
-    files:
-      - wwwroot/*
-  discard-paths: yes
+artifacts:
+  files:
+    - wwwroot/*
+  discard-paths: 
+    - yes
