@@ -1,0 +1,11 @@
+E:\Huy\Documents\Work\Apps\Net\HuyCV\HuyCV\bin\Release\netcoreapp2.0\HuyCV.deps.json
+E:\Huy\Documents\Work\Apps\Net\HuyCV\HuyCV\bin\Release\netcoreapp2.0\HuyCV.runtimeconfig.json
+E:\Huy\Documents\Work\Apps\Net\HuyCV\HuyCV\bin\Release\netcoreapp2.0\HuyCV.runtimeconfig.dev.json
+E:\Huy\Documents\Work\Apps\Net\HuyCV\HuyCV\bin\Release\netcoreapp2.0\HuyCV.dll
+E:\Huy\Documents\Work\Apps\Net\HuyCV\HuyCV\bin\Release\netcoreapp2.0\HuyCV.pdb
+E:\Huy\Documents\Work\Apps\Net\HuyCV\HuyCV\obj\Release\netcoreapp2.0\HuyCV.csprojAssemblyReference.cache
+E:\Huy\Documents\Work\Apps\Net\HuyCV\HuyCV\obj\Release\netcoreapp2.0\HuyCV.csproj.CoreCompileInputs.cache
+E:\Huy\Documents\Work\Apps\Net\HuyCV\HuyCV\obj\Release\netcoreapp2.0\HuyCV.AssemblyInfoInputs.cache
+E:\Huy\Documents\Work\Apps\Net\HuyCV\HuyCV\obj\Release\netcoreapp2.0\HuyCV.AssemblyInfo.cs
+E:\Huy\Documents\Work\Apps\Net\HuyCV\HuyCV\obj\Release\netcoreapp2.0\HuyCV.dll
+E:\Huy\Documents\Work\Apps\Net\HuyCV\HuyCV\obj\Release\netcoreapp2.0\HuyCV.pdb

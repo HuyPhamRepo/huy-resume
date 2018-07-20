@@ -1,0 +1,3 @@
+E:\Huy\Documents\Work\Apps\Net\HuyCV\HuyCV\obj\{Release}\netcoreapp2.0\HuyCV.csprojAssemblyReference.cache
+E:\Huy\Documents\Work\Apps\Net\HuyCV\HuyCV\obj\{Release}\netcoreapp2.0\HuyCV.csproj.CoreCompileInputs.cache
+E:\Huy\Documents\Work\Apps\Net\HuyCV\HuyCV\obj\{Release}\netcoreapp2.0\HuyCV.AssemblyInfoInputs.cache
