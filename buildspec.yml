@@ -19,7 +19,8 @@ phases:
       - ls -a bin/Release/netcoreapp2.0/publish
   post_build:
     commands:
-      - cp bin/Release/netcoreapp2.0/publish/* wwwroot
+      - rm -f bin/Release/netcoreapp2.0/publish/web.config
+      - find bin/Release/netcoreapp2.0/publish/ -type f -print0 | xargs -0 mv -t wwwroot
       - ls -a wwwroot
       - cp appspec.yml wwwroot
 artifacts:
