@@ -13,12 +13,13 @@ phases:
       - npm install --save-dev @angular-devkit/build-angular
   build:
     commands:
-      - ls -a
+      - ng build --prod
       - dotnet restore
-      - dotnet publish -c Release -o wwwroot
+      - dotnet publish -c Release
+      - ls -a
   post_build:
     commands:
-      - ls -a
+      - cp bin/Release/publish wwwroot
       - cp appspec.yml wwwroot
 artifacts:
   files:
