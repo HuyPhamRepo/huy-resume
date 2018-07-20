@@ -1,0 +1,19 @@
+.nav {
+  color:white;
+  padding: 20px 20px;
+  text-transform:uppercase;
+  font-weight:700;
+  font-size:24px;
+}
+.nav a:hover{
+  cursor:pointer;
+}
+.nav a{
+  margin: 5px 50px;
+}
+.nav__menu-button-container{
+  margin-top:-2px;
+}
+.nav__menu-button{
+  width:22px;
+}

@@ -1,0 +1,9 @@
+.homepage-body h1{
+  font-size:100px;
+}
+.homepage-body h2{
+  font-size:48px;
+}
+.homepage-body > div > .row{
+  margin-top: 50px;
+}

@@ -1,0 +1,16 @@
+.nav-side {
+  color: white;
+}
+
+.nav-side ul {
+  list-style-type: none;
+  padding-left: 20px;
+}
+
+.nav-side__links {
+  text-transform: uppercase;
+}
+
+.nav-side__links a:hover {
+  text-decoration: none;
+}
