@@ -28,4 +28,4 @@ phases:
 artifacts:
   files:
     - wwwroot/*
-  discard-paths: yes
+  discard-paths: no
