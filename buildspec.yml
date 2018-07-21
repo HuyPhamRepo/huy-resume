@@ -27,5 +27,5 @@ phases:
       - cp appspec.yml wwwroot
 artifacts:
   files:
-    - wwwroot/*
-  discard-paths: no
+    - wwwroot/**/*
+  discard-paths: yes
